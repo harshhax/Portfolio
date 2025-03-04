@@ -1,0 +1,134 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    color: #222;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+/* Home Section */
+#welcome {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 60px 10%;
+    background: #ff9900;
+    color: white;
+    gap: 20px;
+}
+#welcome h1 {
+    font-size: 32px;
+}
+
+#welcome h2 {
+    font-size: 20px;
+}
+
+#welcome .text {
+    margin-right: 30px;
+}
+
+#welcome img {
+    margin-left: 30px;
+    width: 250px;  
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 4px solid white; 
+}
+
+/* About Section */
+#about-me {
+    padding: 50px 20px;
+    background: white;
+}
+
+/* Skills Section */
+#my-skills {
+    background: #222;
+    color: white;
+    padding: 50px 20px;
+}
+
+#my-skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#my-skills ul li {
+    display: inline-block;
+    background: #ff9900;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#my-work {
+    padding: 50px 20px;
+    background: white;
+}
+
+#my-work div {
+    background: #f0f0f0;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+/* Resume Section */
+#my-resume {
+    padding: 50px 20px;
+    background: #444;
+    color: white;
+}
+
+#my-resume a {
+    display: inline-block;
+    background: white;
+    color: #444;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact-me {
+    padding: 50px 20px;
+    background: #ff9900;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
